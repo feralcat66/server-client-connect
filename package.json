@@ -1,0 +1,26 @@
+{
+  "name": "server-client-connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feralcat66/server-client-connect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feralcat66/server-client-connect/issues"
+  },
+  "homepage": "https://github.com/feralcat66/server-client-connect#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  }
+}
