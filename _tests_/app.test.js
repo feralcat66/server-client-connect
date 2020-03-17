@@ -6,7 +6,8 @@ describe('app routes', () => {
     return request(app)
       .get('/red')
       .then(res =>{
-        expect(res.text).toEqual(`<html>
+        expect(res.text).toEqual(
+`<html>
 <body>
 <h1>red thing</h1>
 </body>
